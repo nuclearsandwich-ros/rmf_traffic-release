@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-traffic
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libccd-dev, libeigen3-dev, ros-humble-ament-cmake-catch2 <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-eigen3-cmake-module, ros-humble-rmf-utils, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-traffic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libccd-dev, libeigen3-dev, ros-humble-eigen3-cmake-module, ros-humble-rmf-utils, ros-humble-ros-workspace
+Description: Package for managing traffic in the Robotics Middleware Framework

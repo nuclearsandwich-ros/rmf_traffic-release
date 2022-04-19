@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-traffic-examples
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rmf-traffic, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-traffic-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rmf-traffic, ros-humble-ros-workspace
+Description: Examples of how to use the rmf_traffic library
